@@ -1,0 +1,347 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Kanban.css">
+    <title>Kanban</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:700&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <div class="black-dashboard">
+        <div class="projectus">
+            <div class="minilogo-projectus">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21.613" height="18.913" viewBox="0 0 21.613 18.913">
+                    <path id="Logo" d="M3.1,18.518l-2.7-2.7a1.351,1.351,0,0,1,1.911-1.911l1.745,1.746L8.5,11.2a1.353,1.353,0,0,1,1.913,1.913l-5.4,5.4a1.355,1.355,0,0,1-1.911,0Zm11.762-2.308a1.351,1.351,0,1,1,0-2.7h5.4a1.351,1.351,0,1,1,0,2.7ZM3.1,7.708l-2.7-2.7A1.351,1.351,0,1,1,2.306,3.1L4.051,4.844,8.5.394a1.352,1.352,0,0,1,1.913,1.912l-5.4,5.4a1.355,1.355,0,0,1-.957.4A1.336,1.336,0,0,1,3.1,7.708ZM14.859,5.4a1.351,1.351,0,0,1,0-2.7h5.4a1.351,1.351,0,0,1,0,2.7Z" fill="#ffc200"/>
+                  </svg>
+                  <label class="black-side-texts" for="Projectus">Projectus</label>
+            </div>
+        
+            <div class="search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <path id="Search" d="M14.663,16a1.328,1.328,0,0,1-.945-.392l-3.477-3.477a.294.294,0,0,1-.027-.032c-.007-.009-.014-.018-.021-.026a6.578,6.578,0,1,1,1.88-1.88l.026.021a.306.306,0,0,1,.033.028l3.476,3.476A1.337,1.337,0,0,1,14.663,16ZM6.578,2.281a4.3,4.3,0,1,0,4.3,4.3A4.3,4.3,0,0,0,6.578,2.281Z" fill="#fff" opacity="0.5"/>
+                  </svg>
+            </div>
+        </div>
+
+        <div class="user-bar">
+            <img id="user-img"src="images/Userpic.svg" alt="User Icon">
+            <div class="user-name">
+                <label class="black-side-texts Name" for="Name">Emilee Simchenko</label>
+                <br>
+                <label class="black-side-texts Role" for="Role">Project owner</label>
+            </div>
+            <img src="images/More Icon.svg" alt="more details">
+        </div>
+
+        <div class="tasks-stat">
+            <div class="completed-tasks">
+                <label class="black-side-texts" for="number">372</label>
+                <label class="black-side-texts completed" for="completed-tasks">Completed Tasks</label>
+            </div>
+            <div class="open-tasks">
+                <label class="black-side-texts" for="number">11</label>
+                <label class="black-side-texts open" for="completed-tasks">Open Tasks</label>
+            </div>
+        </div>
+
+        <div class="side-menu">
+            <label class="div-title" for="Teams">Teams</label>
+            <ul>
+                <li class="menu-item">
+                    <label class="black-side-texts" for="Menu">MENU</label>
+                </li>
+                <li class="menu-item">
+                    <label class="black-side-texts"  for="Home">Home</label>
+                </li>
+                <li class="menu-item">
+                    <label class="black-side-texts" for="mytasks">My Tasks</label>
+                </li>
+                <li class="menu-item">
+                    <label class="black-side-texts" for="nots">Notifications</label>
+                    <div class="notifications-number">
+                        <label for="count">3</label>
+                    </div>
+                </li>
+            </ul>
+
+
+        </div>
+
+        <div class="projects">
+            <label class="div-title project" for="Teams">   Projects</label>
+            <ul>
+                
+                <li>
+                    <img src="images/Icon1.svg" alt="icons">
+                    <label class="black-side-texts project-item" for="uikit">Dashboard UI kit</label>
+                </li>
+                <li>
+                    <img src="images/Icon2.svg" alt="icons">
+                    <label class="black-side-texts project-item" for="CRM">CRM System</label>
+                </li>
+                <li>
+                    <div>
+                    <img src="images/Icon3.svg" alt="icons">
+                    <label class="black-side-texts project-item" for="redesign">Redesign</label>
+                </div>
+                <div class="more-project-details">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="4" viewBox="0 0 16 4">
+                        <path id="More_Icon" data-name="More Icon" d="M12,2a2,2,0,1,1,2,2A2,2,0,0,1,12,2ZM6,2A2,2,0,1,1,8,4,2,2,0,0,1,6,2ZM0,2A2,2,0,1,1,2,4,2,2,0,0,1,0,2Z" fill="#9b9b9b"></path>
+                      </svg>
+                </div>
+                </li>
+                <li>
+                    <img src="images/Icon.svg" alt="icons">
+                    <label class="black-side-texts project-item" for="community">Community Tool</label>
+                </li>
+                <li>
+                    <label class="black-side-texts addtext" for="add">
+                        +Add a project
+                    </label>
+                </li>
+            </ul>
+
+
+        </div>
+
+        <div class="teams">
+            <label class="div-title" for="Teams">Teams</label>
+            <ul>
+                    <div class="team-item">
+                        <label class="black-side-texts" for="designers">Designers</label>
+                        <div class="team-item-img">
+                            <img src="images/Oval1.svg" alt="designer img">
+                            <img src="images/Oval2.svg" alt="designer img">
+                            <img src="images/oval3.svg" alt="designer img">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="team-item">
+                        <label class="black-side-texts" for="backend">Backend</label>
+                        <div class="team-item-img">
+                            <img src="images/Oval4.svg" alt="backend img">
+                            <img src="images/Oval5.svg" alt="designer img">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="team-item">
+                        <label class="black-side-texts" for="front-end">Front end</label>
+                        <div class="team-item-img">
+                            <img src="images/Oval6.svg" alt="designer img">
+                            <img src="images/Oval7.svg" alt="designer img">
+                            <img src="images/Oval8.svg" alt="designer img">
+                            <img src="images/Oval9.svg" alt="designer img">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <label class="black-side-texts addtext" for="addmore">
+                        +Add a Team
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="invitation">
+            <label> 
+                <u>Invite your team</u>
+                and start collaborating!
+            </label>
+        </div>
+    </div>
+    
+    <div class="mid-content">
+        <div class="header">
+            <div class="wish">
+                <!--wish = website-icon-share-chat which is the top of select menu-->
+                <div class="logo">
+                    <div class="website-icon">
+                        <svg id="Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+                            <defs>
+                              <clipPath id="clip-path">
+                                <rect id="Mask" width="40" height="40" rx="8" fill="#ffc200"/>
+                              </clipPath>
+                            </defs>
+                            <rect id="Mask-2" data-name="Mask" width="40" height="40" rx="8" fill="#ffc200"/>
+                            <g id="Icon-2" data-name="Icon" clip-path="url(#clip-path)">
+                              <g id="Shapes" transform="translate(-3 -18.753)">
+                                <path id="Rectangle_2_Copy_2" data-name="Rectangle 2 Copy 2" d="M.058,4.028a4,4,0,0,1,4-4L31.31,0a4,4,0,0,1,4,4l-.058,47.936a4,4,0,0,1-4,4L4,55.969a4,4,0,0,1-4-4Z" transform="matrix(0.839, -0.545, 0.545, 0.839, 22.665, 19.418)" fill="#753ad7"/>
+                                <g id="Oval_4_Copy" data-name="Oval 4 Copy" transform="translate(0.598 30.267)" fill="none" stroke="red" stroke-miterlimit="10" stroke-width="6">
+                                  <ellipse cx="15.328" cy="15.369" rx="15.328" ry="15.369" stroke="none"/>
+                                  <ellipse cx="15.328" cy="15.369" rx="12.328" ry="12.369" fill="none"/>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>
+                    </div>
+                    <h1>Website</h1>
+                    <div class="base">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="4" viewBox="0 0 16 4">
+                            <path id="More_Icon" data-name="More Icon" d="M12,2a2,2,0,1,1,2,2A2,2,0,0,1,12,2ZM6,2A2,2,0,1,1,8,4,2,2,0,0,1,6,2ZM0,2A2,2,0,1,1,2,4,2,2,0,0,1,0,2Z" fill="#9b9b9b"/>
+                          </svg>                  
+                    </div>
+                </div>
+                <div class="share-chat">
+                    <img class="img" src="images/Pic1.svg" alt="pic1">
+                    <img class="img" src="images/Pic2.svg" alt="pic2">
+                    <img class="img" src="images/Pic00.svg" alt="pic3">
+                    <input type="button" class="share-chat-btn share-btn" value="Share">
+                    <div class="share-chat-btn chat-btn">
+                         <img class="chaticon"src="images/Combined Shape.svg" alt="chet icon">
+                         <label for="chat">Chat</label>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menu-buttons">
+                    <label class="label" for="tasks">Tasks</label>
+                </div>
+                <div class="menu-buttons">
+                    <label class="label selected-item" for="Kanban">Kanban</label>
+                </div>
+                <div class="menu-buttons">
+                    <label class="label" for="activity">Activity</label>
+                </div>
+                <div class="menu-buttons">
+                    <label class="label" for="calender">Calender</label>
+                </div>
+                <div class="menu-buttons">
+                    <label class="label" for="files">Files</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="tasks-container">
+
+            <div class="backlog">
+                <div class="card-background">
+                    <div class="backlog-manager">
+                        <h1>Backlog</h1>
+                        <div class="add-task">
+                            <label  for="add-Task">+ Add Task</label >
+                        </div>
+                    </div> 
+                    <div class="item">
+                        <label class="details" for="details">
+                            E-mail after registration so that I can confirm mine
+                        </label>
+                        <div class="creator">
+                            <img src="/images/Oval7.svg">
+                            <label class="creator-label Dev" for="creator">DEVELOPEMENT</label>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <label class="details" for="details">
+                            Find top 5 customers and get reviews from them
+                        </label>
+                        <div class="creator">
+                            <img src="/images/Pic01.svg">
+                            <label class="creator-label Marketing" for="creator">MARKETING</label>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <label class="details" for="details">
+                            Two-factor authentication to make private
+                        </label>
+                        <div class="creator">
+                            <img src="/images/Oval7.svg">
+                            <label class="creator-label design" for="creator">DESIGN</label>
+                        </div>
+                        <img class="designer-images" src="/images/Image1.svg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="todo">
+                    <div class="card-background">
+                        <div class="backlog-manager">
+                            <h1>To Do</h1>
+                            <div class="add-task">
+                                <label  for="add-Task">+ Add Task</label >
+                            </div>
+                        </div> 
+                        <div class="item">
+                            <label class="details" for="details">
+                                Two-factor authentication to make private
+                            </label>
+                            <div class="creator">
+                                <img src="/images/Oval7.svg">
+                                <label class="creator-label design" for="creator">DESIGN</label>
+                            </div>
+                            <img class="designer-images" src="/images/Image.svg">
+                        </div>
+                        <div class="item">
+                            <label class="details" for="details">
+                                Find top 5 customers and get reviews from them
+                            </label>
+                            <div class="creator">
+                                <img src="/images/Pic01.svg">
+                                <label class="creator-label Marketing" for="creator">MARKETING</label>
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                            <label class="details" for="details">
+                                E-mail after registration so that I can confirm mine
+                            </label>
+                            <div class="creator">
+                                <img src="/images/Oval7.svg">
+                                <label class="creator-label Dev" for="creator">DEVELOPEMENT</label>
+                            </div>
+                        </div>  
+                        <div class="item">
+                            <label class="details" for="details">
+                                Find top 5 customers and get reviews from them
+                            </label>
+                            <div class="creator">
+                                <img src="/images/Pic01.svg">
+                                <label class="creator-label Marketing" for="creator">MARKETING</label>
+                            </div>
+                        </div>  
+                        <div class="item">
+                            <label class="details" for="details">
+                                E-mail after registration so that I can confirm mine
+                            </label>
+                            <div class="creator">
+                                <img src="/images/Oval7.svg">
+                                <label class="creator-label Dev" for="creator">DEVELOPEMENT</label>
+                            </div>
+                        </div>      
+                    </div>
+            </div>
+            <div class="done">
+                    <div class="card-background">
+                        <div class="backlog-manager">
+                            <h1>Done</h1>
+                            <div class="add-task">
+                                <label  for="add-Task">+ Add Task</label >
+                            </div>
+                        </div> 
+                        <div class="item">
+                            <label class="details" for="details">
+                                E-mail after registration so that I can confirm mine
+                            </label>
+                            <div class="creator">
+                                <img src="/images/Oval7.svg">
+                                <label class="creator-label Dev" for="creator">DEVELOPEMENT</label>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <label class="details" for="details">
+                                Find top 5 customers and get reviews from them
+                            </label>
+                            <div class="creator">
+                                <img src="/images/Pic01.svg">
+                                <label class="creator-label Marketing" for="creator">MARKETING</label>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #EEEBE5;
+    font-family: 'Heebo', sans-serif;
+    display: flex;
+    /*Fallback (if 'Open Sans') is not available then use sans-serif as font-family*/
+
+}
+/*TOP MENU CSS*/
+.mid-content{
+    width: 100%;
+    margin-left : 270px;
+}
+.header{
+    margin-bottom: 30px;
+    height: 101px;
+    background-color: white;
+    padding: 29px 30px 6px 15px;
+}
+.wish{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.website-icon{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+h1{
+    width: 261px;
+    height: 47px;
+    font-size: 32px;
+    padding-bottom: 2px;
+    margin-left: 15px;
+}
+.base{
+    width: 30px;
+    height: 30px;
+    background-color: #EAEAEA;
+    border-radius: 15px;
+    margin-left: 15px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.share-chat{
+    width: 278px;
+    height: 31px;
+    display: flex;
+    float: right;
+    
+}
+.img{
+    margin: 0px 2.5px;
+}
+.img:nth-last-child(3){
+    margin-right: 15px;
+}
+.share-chat-btn{
+    width: 67px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 0 auto;
+    border: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.share-btn{
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    background-color: #EAEAEA;
+}
+.chat-btn{
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    background-color: #FFF8DD;
+    color: #FFC200;
+}
+.chaticon{
+    widows: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.menu{
+    display: flex;
+    width: 350px;
+    height: 34px;
+    margin-top: 15px;
+    background-color: #FFC200;
+    margin-bottom: 6px;
+}
+.menu-buttons{
+    width: 70px;
+    height: 34px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.men-color{
+    height: 10px;
+    width: 20px;
+}
+.menu-buttons:nth-child(2){
+    height: 32px;
+}
+.label{
+    color: black;
+    opacity: 70%;
+}
+.selected-item{
+    opacity: 100%;
+    border-bottom: 1px ;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/*BLACK SIDE BAR CSS*/
+.black-dashboard{
+    width: 270px;
+    
+    background-color: black;
+    position: fixed;
+    padding-top: 30px;
+}
+.div-title{
+    color: #9B9B9B;
+}
+.div-title:nth-child(2n){
+    padding-left: 30px;
+}
+.projectus{
+    display: flex;
+    justify-content: space-between;
+    width: 224.59px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.projectus label{
+    margin-left: 15px;
+}
+.projectus svg{
+    width: 21.61px;
+    height: 18.91;
+}
+.search{
+    margin-right: 20px;
+}
+.black-side-texts{
+    color: white;
+}
+
+.user-bar{
+    display: flex;
+    background-color: #202020;
+    width: 270px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#user-img{
+    margin-left: 30px;
+    margin-right: 15px
+    
+}
+.user-name{
+    margin-right: 22px;
+}
+.Name{
+    font-size: 14px;
+}
+.Role{
+    font-size: 12px;
+}
+
+.tasks-stat{
+    width: 177px;
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 35px;
+}
+.completed-tasks{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-right: 20px;  
+}
+.open-tasks{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.completed{
+    font-size: 12px;
+    color: #9B9B9B;
+}
+.open{
+    color: #9B9B9B;
+    font-size: 12px;
+}
+
+.side-menu{
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.menu-item{
+    height: 38.45px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.menu-item:nth-child(1){
+    opacity: 70%;
+}
+.notifications-number{
+    background-color: #FFC200;
+    width: 19px;
+    height: 19px;
+    margin-left: 7.5px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.projects{
+    margin-bottom: 30px;
+}
+.project{
+    padding-left: 30PX;
+}
+.projects li{
+    display: flex;
+    padding-left: 30px;
+    height: 40px;
+    align-items: center;
+}
+.project-item{
+    margin-left: 10px;
+}
+.addtext{
+    color:#FFC200 ;
+}
+.projects li:nth-child(3){
+    background-color: #202020;
+    border-left: 4px solid #FFC200;
+    padding-left: 26px;
+    justify-content: space-between;
+    
+}
+.more-project-details{
+    margin-right: 20px;
+}
+
+.teams{
+    padding-left: 30px;
+    margin-bottom:51px;
+    
+}
+.teams img{
+    padding:2.5px;
+}
+.team-item{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    height: 40px;
+}
+
+.invitation {
+    color: white;
+    padding-left: 30px;
+    
+    
+}
+u{
+    color: #FFC200;
+
+}
+
+
+
+
+
+
+
+/*Content*/
+.tasks-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+.card-background{
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    width: 350px;
+}
+.backlog-manager{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.add-task{
+    display: flex;
+    width: 110px;
+    height: 40px;
+    background-color: #CEF9C6;
+    border-radius: 20px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.item{
+    width: 290px;
+    background-color: #F7F6F3;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.details{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.creator{
+    width: 142px;
+    display: flex; 
+    align-self: flex-start;
+}
+.creator-label{
+    display: flex;
+    margin-left: 10px;
+    font-size: 12px;
+    border-radius: 10.5px;
+    justify-content: center;
+    align-items: center;
+}
+.Dev{
+    background-color: #FFF1E2;
+    color: #ED6400;
+    width: 112px;
+}
+.Marketing{
+    background-color: #F5F0FF;
+    color: #764CED;
+    width: 89px;
+}
+.design{
+    background-color: #E3EFFF;
+    color: #1975D0;
+    width: 63px;
+}
+.designer-images{
+    margin-top: 20px;
+    width: 230px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
